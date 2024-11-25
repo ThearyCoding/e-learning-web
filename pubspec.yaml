@@ -1,0 +1,97 @@
+name: e_learningapp_admin
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_iconly: ^1.0.2
+  file_picker: ^8.0.0+1
+  firebase_core: ^2.27.0
+  firebase_storage: ^11.6.9
+  cloud_firestore: ^4.15.8
+  easy_loader: ^2.0.0
+  get: ^4.6.6
+  flutter_easyloading: ^3.0.5
+  uuid: ^4.4.0
+  video_player: ^2.8.5
+  firebase_auth: ^4.17.8
+  fluttertoast: ^8.2.5
+  shared_preferences: ^2.3.0
+  responsive_builder: ^0.7.0 
+  easy_sidemenu: ^0.6.0 ## for sidebar menu
+  syncfusion_flutter_datagrid: ^26.1.38
+  responsive_framework: ^1.4.0
+  colorful_circular_progress_indicator: ^0.0.2
+  pull_to_refresh: ^2.0.0
+  number_pagination: ^1.0.7
+  flutter_web_pagination: ^0.0.3
+  fluid_dialog: ^2.0.0
+  flutter_breadcrumb: ^1.0.1
+  intl: ^0.17.0
+  toastification: ^2.0.0
+  number_paginator: ^0.4.1
+  easy_loading_button: ^0.3.2
+  loading_btn: ^1.0.3
+  video_thumbnail_imageview: ^0.0.6
+  dio: ^5.5.0+1
+  firebase_messaging: ^14.9.4
+  animated_custom_dropdown: ^3.1.1
+  expandable: ^5.0.1
+  cached_network_image: ^3.4.0 ## cached image
+  image_cropper: ^8.0.2 ## cropper image
+  compress_images_flutter: ^0.0.3+9
+  flutter_image_compress: ^2.3.0
+  ffmpeg_kit_flutter: ^6.0.3
+  # ffmpeg_wasm: ^1.0.3
+  cool_alert: ^2.0.1
+  file_saver: ^0.2.13
+  permission_handler_web: ^0.0.2
+  permission_handler: ^11.0.1
+  get_it: ^8.0.0
+  logger: ^2.4.0
+  http_parser: ^4.0.2
+  flutter_client_sse: ^2.0.3
+  featurehub_sse_client: ^1.3.3
+  socket_io_client: ^3.0.0
+  chunked_uploader: ^1.1.0
+  flutter_upchunk: ^2.0.2
+  ffmpeg_wasm: ^1.0.3
+  supabase_flutter: ^2.8.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
